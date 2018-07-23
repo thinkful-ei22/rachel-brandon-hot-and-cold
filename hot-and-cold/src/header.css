@@ -1,14 +1,21 @@
-.navBar{
-    display: flex;
-    align-items: flex-start;
+nav {
+    position: relative;
+    height: 10%;
+    padding: 60px 60px;
+  }
+  
+  nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
     list-style-type: none;
-}
-
-.NewGame{
-    flex-grow: 1;
-    order: 1;
-}
-
-.FAQ{
-    order: 2;
-}
+  }
+  
+  nav ul li:first-child {
+    float: left;
+  }
+  
+  nav ul li {
+    float: right;
+  }
+  
