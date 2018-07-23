@@ -1,0 +1,14 @@
+.navBar{
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.NewGame{
+    flex-grow: 1;
+    order: 1;
+}
+
+.FAQ{
+    order: 2;
+}
