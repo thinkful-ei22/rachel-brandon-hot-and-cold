@@ -6,7 +6,7 @@ export default function Feedback(props){
   return (
     <p>
             Guess #
-      <span id="count">{props.guessNumber}12</span>
+      <span id="count">{props.guessNumber}42</span>
             !
     </p>
   );
